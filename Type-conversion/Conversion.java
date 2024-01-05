@@ -29,5 +29,16 @@ public class Conversion {
         System.out.println(number1);
         System.out.println(number2);
 
+        //Type promotion 
+
+        byte b=45;
+        char c='a';
+        short s=1024;
+        int i=6466;
+        float f=1545.444f;
+        double d=4646464.16464;
+
+        double result=b+c+s+i+f+d;
+        System.out.println(result);
     }
 }
